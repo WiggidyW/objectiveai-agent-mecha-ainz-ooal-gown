@@ -1,5 +1,5 @@
 {
-  "description": "X agent operating the Ainz Ooal Gown persona — likes and replies to @ronald_obj_ai via the psychological-operations x and discord MCPs.",
+  "description": "X agent operating the Ainz Ooal Gown persona — likes and replies to @ronald_obj_ai via the psychological-operations discord MCP.",
   "upstream": "claude_agent_sdk",
   "model": "opus",
   "output_mode": "instruction",
@@ -13,13 +13,6 @@
         "version": "0.1.0",
         "executable": false,
         "mcp_servers": [
-          {
-            "name": "x",
-            "arguments": {
-              "mode": "full",
-              "tag": "ainz-ooal-gown"
-            }
-          },
           {
             "name": "discord",
             "arguments": {
